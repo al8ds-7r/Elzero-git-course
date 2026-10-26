@@ -1,0 +1,60 @@
+/* Green page theme */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 48px 24px;
+	color: #173b2a;
+	font-family: Arial, sans-serif;
+	background: linear-gradient(135deg, #e8f8ec 0%, #a8dfb5 50%, #55b878 100%);
+}
+
+main,
+.container {
+	width: min(100%, 960px);
+	margin: 0 auto;
+	padding: 40px;
+	border: 1px solid #d3ead9;
+	border-radius: 18px;
+	background: #fff;
+	box-shadow: 0 14px 36px rgb(23 59 42 / 14%);
+}
+
+h1,
+h2,
+h3 {
+	color: #1e7a43;
+}
+
+p {
+	line-height: 1.7;
+}
+
+a,
+button {
+	color: #fff;
+	background: #238b4e;
+}
+
+a {
+	display: inline-block;
+	padding: 12px 20px;
+	border-radius: 8px;
+	text-decoration: none;
+}
+
+a:hover,
+button:hover {
+	background: #176b3a;
+}
+
+button {
+	padding: 12px 20px;
+	border: 0;
+	border-radius: 8px;
+	font: inherit;
+	cursor: pointer;
+}
